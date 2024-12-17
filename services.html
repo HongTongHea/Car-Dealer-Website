@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="/style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>RIMBERIO - CAR DEALER SERVICES</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="hearder-top" id="headerTop">
+                    <div class="icon-contact">
+                        <a href="tel:"><i
+                                class='bx bxs-phone-call'></i>+855-123456789</a>
+                        <a href="mailto:"><i
+                                class='bx bxs-envelope'></i>info@cardealer.example.com</a>
+                    </div>
+                    <div class="icon-link">
+                        <a href><i class='bx bxl-facebook-circle'></i></a>
+                        <a href><i class='bx bxl-twitter'></i></a>
+                        <a href><i class='bx bxl-instagram'></i></a>
+                        <a href><i class='bx bxl-youtube'></i></a>
+                        <a href><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </nav>
+                <nav class="header-main" id="headerMain">
+                    <div class="logo">
+                        <a href="index.html"><img
+                                src="/images/logo.png"
+                                alt></a>
+                    </div>
+                    <div class="menu">
+                        <div class="open_menu">
+                            <a href id="searchmobile">
+                                <i class='bx bx-search'></i>
+                            </a>
+                        </div>
+
+                        <div class="open_menu" id="toggle_menu">
+                            <i class='bx bx-menu'></i>
+                        </div>
+                    </div>
+                    <ul class="nav_list" id="nav_menu">
+
+                        <div class="close_menu" id="close_menu">
+                            <div class="logo">
+                                <a href="index.html"><img
+                                        src="/images/logo.png"
+                                        alt></a>
+                            </div>
+                            <i class='bx bx-x'></i>
+                        </div>
+                        <li class="nav_item">
+                            <a href="index.html" class="nav_link">Home</a>
+                        </li>
+                        <li class="nav_item dropdown">
+                            <a href="services.html"
+                                class="nav_link dropdown_link">Cars
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="about.html" class="nav_link">About Us</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="contact.html" class="nav_link">Contact
+                                Us</a>
+                        </li>
+                        <li class="nav_item">
+                            <div class="nav_icon">
+                                <a href id="searchIcon" class="search">
+                                    <i class='bx bx-search'></i>
+                                </a>
+                                <a href="products.html">
+                                    <i class='bx bx-cart'></i>
+                                    <span>0</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="popup" id="searchPopup">
+                        <div class="overlay" id="overlay"></div>
+                        <!-- Overlay -->
+                        <div class="popup-content">
+                            <form action class="search__form">
+                                <input type="search"
+                                    placeholder="What are you looking for?"
+                                    class="search__input">
+                            </form>
+                            <i class='bx bx-x' id="popupClose"></i>
+                        </div>
+                    </div>
+                    <div class="popup" id="searchPopupmobile">
+                        <div class="overlay" id="overlaymobile"></div>
+                        <div class="popup-content">
+                            <form action class="search__form">
+                                <input type="search"
+                                    placeholder="What are you looking for?"
+                                    class="search__input">
+                            </form>
+                            <i class='bx bx-x' id="popupClosemobile"></i>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="/images/img (3).jpg" alt>
+                    <div class="slide-title">
+                        <h1> BMW 4 SERIES Class
+                            2024 MODELS.</h1>
+                        <span>$25,618.82</span>
+                        <p>At our service, we bring you the finest selection of
+                            premium cars tailored to enhance your journey.</p>
+                        <a href="services.html" class="btn">View More
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/images/img (1).png" alt>
+                    <div class="slide-title">
+                        <h1>Mercedes Benz Class 2024 MODELS.</h1>
+                        <span>$63,550</span>
+                        <p>At our service, we bring you the finest selection of
+                            premium cars tailored to enhance your journey.</p>
+                        <a href="services.html" class="btn">View More
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/images/bg (2).png" alt>
+                    <div class="slide-title">
+                        <h1>Porsche GT911 Class 2024 MODELS.</h1>
+                        <span>$223,650</span>
+                        <p>At our service, we bring you the finest selection of
+                            premium cars tailored to enhance your journey.</p>
+                        <a href="services.html" class="btn">View More
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="option-container">
+                <div class="option">
+                    <div class="option-title">
+                        <div class="option-input">
+                            <i class='bx bxs-map-pin'></i>
+                            <label>Your Destination</label>
+                            <input type="text" placeholder="Your location here">
+                        </div>
+                        <div class="option-input">
+                            <i class='bx bxs-calendar'></i>
+                            <label>When to Start</label>
+                            <input type="date">
+                        </div>
+                        <div class="option-input">
+                            <i class='bx bxs-calendar'></i>
+                            <label>When to Finish</label>
+                            <input type="date">
+                        </div>
+                        <div class="option-input">
+                            <i class='bx bxs-car'></i>
+                            <label>Chose Car</label>
+                            <select name id>
+                                <option value>All Cars</option>
+                                <option value>Mercedes Benz</option>
+                                <option value>BMW</option>
+                                <option value>Porsche</option>
+                                <option value>Audi</option>
+                                <option value>Lamborghini</option>
+                                <option value>Ferrari</option>
+                                <option value>Bugatti</option>
+                                <option value>Tesla</option>
+                                <option value>Lexus</option>
+                                <option value>Bentley</option>
+                            </select>
+                        </div>
+                        <div class="option-input">
+                            <button>Search</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Services section -->
+        <div class="container">
+            <div class="heading-title">
+                <h1>Our Services</h1>
+            </div>
+            <div class="Work-contant">
+                <div class="work-box aos-init" data-aos="fade-down"
+                    data-aos-duration="1400">
+                    <img src="/images/24.png" alt>
+                    <h3 class="work-title">Work Time/24h </h3>
+                    <p class="work-text">
+                        The work time of our service is from 7:00 am to 10:00
+                        am and from 4:00 pm to 7:00 pm, 8 hours every day of the
+                        week.
+
+                    </p>
+                </div>
+                <div class="work-box aos-init" data-aos="fade-up"
+                    data-aos-duration="1400">
+                    <img src="/images/person (2).jpg" alt>
+                    <h3 class="work-title">Repair</h3>
+                    <p class="work-text">
+                        We are committed to providing exceptional repair
+                        services
+                        to our valued customers throughout the year, ensuring
+                        their vehicles are in their best condition.
+                    </p>
+                </div>
+                <div class="work-box aos-init" data-aos="fade-down"
+                    data-aos-duration="1400">
+                    <img src="/images/person (1).jpg" alt>
+                    <h3 class="work-title">Car Accessories</h3>
+                    <p class="work-text">
+                        Car Accessories is a must-have for any car enthusiast.
+                        We offer a wide range of accessories to enhance your
+                        vehicle's performance and style at an affordable price.
+                    </p>
+                </div>
+                <div class="work-box aos-init" data-aos="fade-up"
+                    data-aos-duration="1400">
+                    <img src="/images/person (3).jpg" alt>
+                    <h3 class="work-title">Own a Car</h3>
+                    <p class="work-text">
+                        Owning a car is an essential part of many people's
+                        lives.
+                        We provide the opportunity to own a car of your choice.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="hero-page">
+                <div class="logo-container">
+                    <ul class="logo-brand">
+                        <li><img src="/images/logo (1).svg"
+                                alt="Logo 1"></li>
+                        <li><img src="/images/logo (2).png"
+                                alt="Logo 2"></li>
+                        <li><img src="/images/logo (3).svg"
+                                alt="Logo 3"></li>
+                        <li><img src="/images/logo (4).png"
+                                alt="Logo 4"></li>
+                        <li><img src="/images/logo (5).png"
+                                alt="Logo 5"></li>
+                        <li><img src="/images/logo (7).png"
+                                alt="Logo 6"></li>
+                        <li><img src="/images/logo (6).png"
+                                alt="Logo 7"></li>
+                        <li><img src="/images/logo (8).png"
+                                alt="Logo 8"></li>
+                        <li><img src="/images/logo (1).svg"
+                                alt="Logo 1"></li>
+                        <li><img src="/images/logo (2).png"
+                                alt="Logo 2"></li>
+                        <li><img src="/images/logo (3).svg"
+                                alt="Logo 3"></li>
+                        <li><img src="/images/logo (4).png"
+                                alt="Logo 4"></li>
+                        <li><img src="/images/logo (5).png"
+                                alt="Logo 5"></li>
+                        <li><img src="/images/logo (7).png"
+                                alt="Logo 6"></li>
+                        <li><img src="/images/logo (6).png"
+                                alt="Logo 7"></li>
+                        <li><img src="/images/logo (8).png"
+                                alt="Logo 8"></li>
+                        <li><img src="/images/logo (4).png"
+                                alt="Logo 4"></li>
+                        <li><img src="/images/logo (5).png"
+                                alt="Logo 5"></li>
+                        <li><img src="/images/logo (7).png"
+                                alt="Logo 6"></li>
+                        <li><img src="/images/logo (1).svg"
+                                alt="Logo 1"></li>
+                        <li><img src="/images/logo (2).png"
+                                alt="Logo 2"></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- hero section -->
+        <div class="container">
+            <div class="hero-section">
+                <div class="hero-title">
+                    <h1 data-aos="fade-right"
+                        data-aos-duration="1200">Welcome to Our
+                        <br> Service
+                        <span>For
+                            You</span></h1>
+                    <p data-aos="fade-up"
+                        data-aos-duration="1200">At our service, we
+                        bring you the finest
+                        selection
+                        of premium cars tailored to enhance your
+                        journey. Whether you're exploring the city
+                        or
+                        embarking on a scenic road trip, our fleet
+                        is
+                        designed to provide unparalleled comfort and
+                        sophistication. Experience the luxury and
+                        elegance that comes with every ride, making
+                        your
+                        travels not just a commute, but a memorable
+                        adventure.
+                        <div data-aos="fade-up" data-aos-duration="1200">
+                            <a href="services.html" class="btn-view">View
+                                More
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+
+                    </p>
+                </div>
+                <div class="hero-img" data-aos="fade-up"
+                    data-aos-duration="1200">
+                    <img src="/images/img-about.jpg" alt width="600">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Car Section -->
+        <section>
+            <div class="container">
+                <div class="heading">
+                    <div data-aos="fade-right"
+                        data-aos-duration="1200">
+                        <span>Last Minute Offers
+                            <i class='bx bx-right-arrow-alt'></i>
+                        </span>
+                        <h2>Explore Premium Car and Brands</h2>
+                    </div>
+                    <div class="btn-order">
+                        <button
+                            onclick="window.location.href = 'services.html';">View
+                            All</button>
+                    </div>
+                </div>
+                <div class="car-contant" data-aos="fade-up"
+                    data-aos-duration="1200">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="heading-title">
+                    <span>
+                        <i class='bx bxs-star'></i>
+                        The Car of Your Dreams
+                        <i class='bx bxs-star'></i>
+                    </span>
+                    <h2>Top Rated Cars and Brands</h2>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/images/Untitled-1.png" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/Untitled-2.png" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/Untitled-3.png" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/Untitled-5.png" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/Untitled-4.png" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/Untitled-6.png" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/Untitled-7.png" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/Untitled-8.png" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/Untitled-9.png" alt>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/Untitled-10.png" alt>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Work section -->
+        <section>
+            <div class="container">
+                <div class="heading-title">
+                    <span>
+                        <i class='bx bx-left-arrow-alt'></i>
+                        One-of-a-kind Experience Car
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </span>
+                    <h2>Search, Campare, Reserve</h2>
+                </div>
+                <div class="Work-contant">
+                    <div class="work-box" data-aos="fade-up"
+                        data-aos-duration="1200">
+                        <i class='bx bxs-car-mechanic'></i>
+                        <h3 class="work-title">Find the Perfect Car for You</h3>
+                        <p class="work-text">
+                            We understand that finding the perfect car for your
+                            needs can be a daunting task, but with our
+                            user-friendly platform, you can easily browse our
+                            extensive selection of cars and find the one that
+                            best suits your preferences.
+                        </p>
+                    </div>
+                    <div class="work-box" data-aos="fade-down"
+                        data-aos-duration="1300">
+                        <i class='bx bx-trip'></i>
+                        <h3 class="work-title">Enjoy the best Safety driver</h3>
+                        <p class="work-text">
+                            having a safe and comfortable driving experience
+                            with our car rental service. Our experienced drivers
+                            are trained to provide the highest level of safety
+                            and comfort during your rental period.
+                        </p>
+                    </div>
+                    <div class="work-box" data-aos="fade-up"
+                        data-aos-duration="1400">
+                        <i class='bx bx-credit-card'></i>
+                        <h3 class="work-title">Book at the best Price</h3>
+                        <p class="work-text">
+                            Our platform provides a convenient way to book your
+                            car rental with just a few clicks. You can choose
+                            from a wide range of cars, including luxury
+                            vehicles, compact cars, and SUVs, and pay for
+                            the car you want at the best price.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="car-main">
+                <div class="car-detail">
+                    <img src="/images/h2-1 (1).webp" alt>
+                </div>
+                <div class="detail-text">
+                    <span data-aos="fade-up"
+                        data-aos-duration="1000">[ Drive your dream ]</span>
+                    <h1 data-aos="fade-up"
+                        data-aos-duration="1200">Sleek rides, smart price: your
+                        <br>
+                        ideal car is a click away
+                    </h1>
+                    <p data-aos="fade-left"
+                        data-aos-duration="1300">
+                        auto dealers play a crucial role in the automotive
+                        industry,
+                        acting as intermediaries between automotive manufactures
+                        and
+                        individual customers.
+                    </p>
+                    <h3 data-aos="fade-right"
+                        data-aos-duration="1400">
+                        <i class='bx bx-check'></i> Selling new add used card to
+                        consumers <br>
+                        <i class='bx bx-check'></i> purchasing cars through
+                        partnership with banks <br>
+                        <i class='bx bx-check'></i> Exchanging vehicles of a new
+                        or used car
+                    </h3>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="heading">
+                    <div data-aos="fade-right"
+                        data-aos-duration="1200">
+                        <span>[ LATEST NEW ]</span>
+                        <h2>ROAD OUR LATEST INSIDE STORES </h2>
+                    </div>
+                    <div class="btn-order">
+                        <button>View All</button>
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/images/blog (1).webp" alt>
+                            <div class="title-slide">
+                                <span>December 30, 2024</span>
+                                <p>Choosing the right car for your lifestyle</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/blog (3).webp" alt>
+                            <div class="title-slide">
+                                <span>December 30, 2024</span>
+                                <p>Choosing the right car for your lifestyle</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/blog (2).webp" alt>
+                            <div class="title-slide">
+                                <span>December 30, 2024</span>
+                                <p>Choosing the right car for your lifestyle</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/blog (4).webp" alt>
+                            <div class="title-slide">
+                                <span>December 30, 2024</span>
+                                <p>Choosing the right car for your lifestyle</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/blog (7).webp" alt>
+                            <div class="title-slide">
+                                <span>December 30, 2024</span>
+                                <p>Choosing the right car for your lifestyle</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/images/blog (6).webp" alt>
+                            <div class="title-slide">
+                                <span>December 30, 2024</span>
+                                <p>Choosing the right car for your lifestyle</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="heading-title">
+                <h1>Testimonials</h1>
+            </div>
+            <div class="container">
+                <video autoplay loop muted src="/images/Car.mp4"
+                width="100%"  style="object-fit: contain; margin: auto"></video>
+            </div>
+            
+        </section>
+
+        <!-- footer section -->
+        <footer>
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-box">
+                        <div class="footer-logo">
+                            <img src="/images/logo.png" alt>
+                        </div>
+                        <div class="footer-text">
+                            <p>
+                                "Your Ultimate Car Rental Solution: Experience
+                                the
+                                Perfect Car Rental Experience with Our
+                                User-Friendly
+                                Platform."
+                            </p>
+                        </div>
+                        <div class="footer-icon">
+                            <i class='bx bxl-facebook'></i>
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-instagram'></i>
+                            <i class='bx bxl-youtube'></i>
+                            <i class='bx bxl-linkedin'></i>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <div class="footer-title">
+                            <h3>imformation</h3>
+                        </div>
+                        <div class="footer-link">
+                            <ul>
+                                <li><a href="#">Our Company</a></li>
+                                <li><a href="services.html">Accessories</a></li>
+                                <li><a href="#">Blog</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-box">
+                            <div class="footer-title">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <div class="footer-link">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a
+                                            href="services.html">Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-box">
+                            <div class="footer-title">
+                                <h3>Contact Us</h3>
+                            </div>
+                            <div class="footer-link">
+                                <ul>
+                                    <li><a
+                                            href="mailto:info@cardealer.example.com"><i
+                                                class='bx bx-envelope'></i>
+                                            Email:
+                                            info@cardealer.example.com</a></li>
+                                    <li><a href="tel:+855-123456789"><i
+                                                class='bx bxs-phone-call'></i>
+                                            Phone: +855-123456789</a></li>
+                                    <li><a href="https://www.google.com/maps"><i
+                                                class="bx bx-current-location"></i>
+                                            Map: Cambodia, Krong SiemReap
+                                            Str</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </footer>
+            <button id="scrollToTopBtn" class="scroll-to-top"> <i
+                    class="bx bx-up-arrow-alt"></i></button>
+            <div class="footer-info">
+                <h4>@Make by Student BBU University Sr</h4>
+            </div>
+
+            <script
+                src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script src="/Script.js"></script>
+            <script>
+            AOS.init();
+            </script>
+        </body>
+    </html>
