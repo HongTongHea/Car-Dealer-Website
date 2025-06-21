@@ -1600,6 +1600,7 @@ section {
 
     #cart-count {
         right: 10px !important;
+        left: 10px !important;
     }
 
     .cart-container {
