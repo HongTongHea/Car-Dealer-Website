@@ -711,6 +711,7 @@ section {
 }
 
 .btn-buy {
+    border:nobe;
     display: flex;
     align-items: center;
     justify-content: center;
